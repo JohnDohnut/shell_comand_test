@@ -9,9 +9,8 @@ git remote -v
 | grep -o  https://[a-zA-Z0-9]*.[a-zA-Z0-9]*[/[a-zA-Z0-9_]*]* 
 | sort -u
 
-
-
 )"
 
 
 grep -o  https://[[a-zA-Z0-9_-+]*.]*[/[a-zA-Z0-9_]*]* | sort -u
+// something.something.something. ...... /something/something/ ....... /something
